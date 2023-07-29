@@ -1,0 +1,32 @@
+  
+  .error-container {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+ 
+  }
+  
+  .error-heading {
+    font-size: 72px;
+    color: #ff3838;
+    margin: 0;
+  }
+  
+  .error-message {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .error-description {
+    font-size: 18px;
+    color: #555;
+    margin: 0;
+  }
+  
