@@ -42,20 +42,6 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }  
   
-  .rating-bar {
-    width: 35%;
-    height: 10px; 
-    background-color: #ddd;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  
-  .rating-bar-inner {
-    height: 100%;
-    background-color: #f8ce0b;
-    transition: width 0.3s;
-  }
-  
   .card .card-content div{
     display: flex;
     justify-content: space-between;

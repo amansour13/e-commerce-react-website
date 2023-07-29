@@ -22,7 +22,6 @@ function Home (){
             <div className='container'>
                 {
                     load && res.map((el,i) => {
-                        console.log(i);
                         return <Card id={el.id} title={el.title} image={el.thumbnail} price={el.price} rating={el.rating} dis={el.discountPercentage}/>;
                     })
                 }

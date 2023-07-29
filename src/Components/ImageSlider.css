@@ -1,0 +1,28 @@
+.image-slider {
+    width: 80%;
+    height: 500px;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+  
+
+  
+  .image-slider-controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-slider-controls button {
+    font-size: 24px;
+    background: rgba(128, 128, 128, 0.204);
+    padding: 0px 15px;
+    border: none;
+    cursor: pointer;
+    color: #CBE4DE;
+  }
+  
+  /* Additional styling for buttons (e.g., arrows) */
+  

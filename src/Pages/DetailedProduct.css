@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2E4F4F;
+}
+
+.main-container{
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
+.Dcontainer{
+    width: 80vw;    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.header{
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.category{
+    background-color: #CBE4DE;
+    color: #0E8388;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.title, .description{ 
+    color: #CBE4DE;
+}
+
+.brand{
+    font-size: 16px;
+    color: #d6f3ec84;
+}
+.description{
+    width: 50%;
+}
+
+.numbers-container
+{
+    width: 10vw;
+    height: 150px;
+    background-color: #0E8388;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 20px;
+    color: #CBE4DE;
+}
+.numbers-container .card-price{
+    background-color: #CBE4DE;
+    color: #0E8388;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.haitham {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+

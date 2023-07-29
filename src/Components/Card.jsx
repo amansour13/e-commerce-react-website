@@ -1,5 +1,6 @@
 import './Card.css';
 import { Link } from 'react-router-dom';
+import RatingBar from './RatingBar';
 
 function Card(props){
     const link = '/product/' + props.id;
@@ -20,17 +21,6 @@ function Card(props){
     );
 }
 
-const RatingBar = ({ rating }) => {
-    const ratingPercentage = (rating / 5) * 100;
-    const barStyle = {
-      width: `${ratingPercentage}%`,
-    };
-  
-    return (
-      <div className="rating-bar">
-        <div className="rating-bar-inner" style={barStyle}></div>
-      </div>
-    );
-  };
+
 
 export default Card;

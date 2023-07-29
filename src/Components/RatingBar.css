@@ -1,0 +1,13 @@
+.rating-bar {
+    width: 100%;
+    height: 10px; 
+    background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .rating-bar-inner {
+    height: 100%;
+    background-color: #f8ce0b;
+    transition: width 0.3s;
+  }
