@@ -29,3 +29,24 @@ a:hover {
 a.active:hover {
     border-bottom: 1px solid #2E4F4F;
 }
+
+@media (max-width: 900px) {
+    ul{
+        width: 40vw;
+    }
+
+}
+
+@media (max-width: 500px) {
+    ul{
+        width: 50vw;
+    }
+
+}
+
+@media (max-width: 400px) {
+    ul{
+        width: 60vw;
+    }
+
+}
