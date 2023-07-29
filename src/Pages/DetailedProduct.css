@@ -78,10 +78,51 @@ body{
     font-size: 16px;
     text-align: center;
 }
-.haitham {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
+.wide{
+    display: none;
 }
 
+@media (max-width: 750px) {
+    .tall{
+        display: none;
+    }
+
+    .header, .description{
+        width: 100%;
+    }
+
+    .wide{
+        box-sizing: border-box;
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+        
+    }
+    .wide .rating-bar{
+        flex: 0.2;
+    } 
+}
+
+@media (max-width: 550px) {
+    .main-container{
+        padding: 20px 40px;
+    }
+
+    
+    .wide .rating-bar{
+        flex: 0.4;
+    }
+    .wide .stock{
+        font-size: 14px;
+    }
+
+    .wide .card-price{
+        font-size: 15px;
+    }
+}

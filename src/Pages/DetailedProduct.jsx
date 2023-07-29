@@ -38,9 +38,10 @@ function DetailedProduct (){
                             </div>
                             <h3 className='category'>{res.category}</h3>
                         </div>
+                        <Numbers dis={res.rating} price={res.price} rating={res.rating} stock={res.stock} isWide={true}/>
                         <p className='description'>{res.description}</p>
                     </div>
-                <Numbers dis={res.rating} price={res.price} rating={res.rating} stock={res.stock}/>
+                <Numbers dis={res.rating} price={res.price} rating={res.rating} stock={res.stock} isWide={false}/>
             </div>
             : console.log("error")
         }
@@ -49,12 +50,11 @@ function DetailedProduct (){
 }
 
 function Numbers (props) {
+    let trigger = '';
+    (props.isWide)? trigger = 'wide' : trigger = 'tall'
     return (
-        <div className='numbers-container'>
-            
-            <div className='haitham'>
-                <span className='stock'>{props.stock} left</span>
-            </div>
+        <div className={`numbers-container ${trigger}`}>
+            <span className='stock'>{props.stock} left</span>
             <span className="card-price">${(((100 - props.dis) * props.price) / 100).toFixed(2) }  <del>${props.price}</del></span>
             <RatingBar rating={props.rating} />
         </div>
