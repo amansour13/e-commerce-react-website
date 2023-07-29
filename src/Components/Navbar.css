@@ -1,0 +1,31 @@
+a{
+    text-decoration: none;
+    color: teal;
+    
+}
+.nav{
+    background-color: #2C3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+ul{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+a.active{
+    border-bottom: 1px solid teal;
+
+}
+a:hover {
+    color: #2E4F4F;
+}
+
+a.active:hover {
+    border-bottom: 1px solid #2E4F4F;
+}
